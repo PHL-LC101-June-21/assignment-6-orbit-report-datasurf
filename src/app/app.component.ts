@@ -28,7 +28,6 @@ export class AppComponent {
 					// add the new Satellite object to sourceList 
 					this.sourceList.push(satellite);
 				 }
-
 				 // make a copy of the sourceList to be shown to the user
 				 this.displayList = this.sourceList.slice(0);
 	  
